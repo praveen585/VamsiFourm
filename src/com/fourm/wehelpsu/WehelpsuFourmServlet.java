@@ -12,6 +12,7 @@ public class WehelpsuFourmServlet extends HttpServlet {
 		PrintWriter pr=resp.getWriter();
 		pr.println("Hello, world");
 		pr.println("Hai from vamsi");
+		pr.println("praveen bethre");
 		
 	}
 }
