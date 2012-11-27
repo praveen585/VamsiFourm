@@ -1,4 +1,3 @@
-function hello()
-{
-alert("hai")
-}
+$(document).ready(function(){
+alert ("hai")	
+});
