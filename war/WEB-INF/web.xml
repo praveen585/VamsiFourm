@@ -7,6 +7,18 @@
 		<servlet-name>WehelpsuFourm</servlet-name>
 		<url-pattern>/wehelpsufourm</url-pattern>
 	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChatServlet</servlet-name>
+		<servlet-class>com.fourm.wehelpsu.ChatServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChatServlet</servlet-name>
+		<url-pattern>/ChatServlet</url-pattern>
+	</servlet-mapping>
+	
+	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
